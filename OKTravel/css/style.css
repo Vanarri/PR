@@ -1,0 +1,217 @@
+.top {
+/* Top */
+position: absolute;
+width: 1440px;
+height: 908px;
+left: 0px;
+top: -44px;
+}
+
+.header {
+/* Header */
+position: absolute;
+width: 1440px;
+height: 80px;
+left: 0px;
+top: 0px;
+}
+
+.rectangle_2 {
+/* Rectangle 2 */
+position: absolute;
+width: 1440px;
+height: 79px;
+left: 0px;
+top: 0px;  
+}
+
+.rectangle_2_1 {
+/* Rectangle 2.1 */
+position: absolute;
+width: 1440px;
+height: 1.36px;
+left: 0px;
+top: 80px;  
+background: #FFFFFF;
+opacity: 0.25;
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.OKTravel {
+/* OK */
+position: absolute;
+width: 159px;
+height: 54.24px;
+left: 108px;
+top: 21px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.05em;
+color: #FFFFFF;
+}
+
+.Travel {
+/* Travel */
+position: absolute;
+width: 159px;
+height: 54.24px;
+left: 160px;
+top: 21px;
+font-family: Roboto;
+font-size: 36px;
+font-style: normal;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0.05em;
+text-align: left;
+color: #FFFFFF;
+}
+
+.clouds {
+/* clouds */
+position: absolute;
+width: 972px;
+height: 415px;
+left: 442px;
+top: 0px;
+background-image: url(../img/clouds.png);
+}
+
+.bground {  
+/* gory */
+position: absolute;
+width: 1440px;
+height: 865px;
+left: 0px;
+top: 43px;
+}
+
+.rectangle {
+/* gradient */
+position: absolute;
+height: 865px;
+width: 1440px;
+left: 0px;
+top: 43px;
+border-radius: 0px;
+background: linear-gradient(0deg, rgba(78, 78, 78, 0.7) 0%, rgba(78, 78, 78, 0.7) 0%, rgba(59, 59, 59, 0.7) 0.01%, rgba(14, 14, 14, 0.16013) 109.49%, rgba(0, 0, 0, 0) 141.96%);
+}
+
+.content {
+/* text box and georgia */
+position: absolute;
+width: 468px;
+height: 258.18px;
+left: 165px;
+top: 240.82px;
+}
+
+.georgia {
+/* georgia */
+position: absolute;
+width: 58px;
+height: 58px;
+left: 386px;
+top: 35.18px;
+filter: drop-shadow(0px 4px 30px rgba(0, 0, 0, 0.25));
+}
+
+.vector_c {
+/* circle */
+position: absolute;
+width: 58px;
+height: 58px;
+}
+
+.vector_plus {
+/* big plus */
+position: absolute;
+width: 58px;
+height: 58px;
+}
+
+.vector_tl {
+/* top left */
+position: absolute;
+width: 11.35px;
+height: 11.35px;
+left: 10.09px;
+top: 10.09px;
+}
+
+.vector_tr {
+/* top right */
+position: absolute;
+width: 11.35px;
+height: 11.35px;
+left: 36.57px;
+top: 10.09px;
+}
+
+.vector_bl {
+/* bottom left */
+position: absolute;
+width: 11.35px;
+height: 11.35px;
+left: 10.09px;
+top: 36.57px;
+}
+
+.vector_br {
+/* bottom right */
+position: absolute;
+width: 11.35px;
+height: 11.35px;
+left: 36.57px;
+top: 36.57px;
+}
+
+.text {
+/* Грузия */
+position: absolute;
+left: 0px;
+right: 64.24%;
+top: 0px;
+bottom: 154.49px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 100px;
+line-height: 117px;
+letter-spacing: 5px;
+color: #FFFFFF;
+}
+
+.text_2 {
+/* Тур все включено */
+position: absolute;
+left: 0px;
+right: 33.12%;
+top: 192.3px;
+bottom: 38.63px;
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 26px;
+line-height: 30px;
+letter-spacing: 0px;
+text-align: left;
+color: #FFFFFF;      
+}
+
+.text_3 {
+/* Перелет, ... */
+position: absolute;
+height: 23px;
+left: 0px;
+top: 235.18px;
+font-family: Roboto;
+font-style: 400;
+font-weight: normal;
+font-size: 18px;
+line-height: 32px;
+color: #FFFFFF;
+}
