@@ -1,0 +1,993 @@
+* {
+    margin:0;
+    padding:0;
+    }
+.container_comfort{
+    position: relative;
+    margin: auto;
+    width: 1165px;
+    height: 1080px;
+}
+.greytext{
+    /*серый текст*/
+    display: block;
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left: 2px;
+    width: 96px;
+    height: 18px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.blacktext{
+    /*черный текст*/
+    display: block;
+    line-height: 50px;
+    width: 194px;
+    height: 100px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+}
+
+.b1{
+    /*комфорт и туры*/
+float: left;
+}
+.polygon{
+    /*шестиугольник*/
+    margin-bottom: 20px;
+    display: block;
+    position: relative;
+    width: 52px;
+    height: 57px;
+    background-image: url(../css/img/polygon.svg)
+}
+.hat{
+    /*шляпа*/
+    position: absolute;
+    top: 18px;
+    left: 8px;
+    width: 37.67px;
+    height: 20.95px;
+    background-image: url(../css/img/hat.svg);
+    z-index: 1;
+}
+.t1{
+    /*проживание в отелях*/
+    display: block;
+    margin-bottom: 15px;
+    width: 252px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+}
+.t11{
+    /*мы будем жить в*/
+    display: block;
+    margin-bottom: 48px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+    width: 355px;
+    height: 235px;
+}
+.b2{
+    /*вторая колонка*/
+    float: left;
+    margin-left: 121px;
+
+}
+.b3{
+    /*третья колонка*/
+    float: left;
+    margin-left: 110px;
+}
+.termos{
+    /*термос*/
+    position: absolute;
+    top: 14px;
+    left: 11px;
+    width: 31px;
+    height: 26px;
+    background-image: url(../css/img/termos.svg);
+    z-index: 1;
+}
+.t2{
+    /*питание*/
+    margin-bottom: 15px;
+    display: block;
+    width: 98px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+
+}
+.t22{
+    /*в стоимость включены все завтраки*/
+    display: block;
+    margin-bottom: 48px;
+    width: 355px;
+    height: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+.book{
+    position: absolute;
+    top: 13.5px;
+    left: 13px;
+    width: 25.9px;
+    height: 30.8px;
+    background-image: url(../css/img/book.svg);
+    z-index: 1;
+}
+.t3{
+    display: block;
+    margin-bottom: 23px;
+    width: 281px;
+    height: 70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+
+}
+.t33{
+    display: block;
+    margin-bottom: 48px;
+    width: 385px;
+    height: 142px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+.t5{
+    display: block;
+    margin-bottom: 20px;
+    width: 346px;
+    height: 35px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+}
+.t55{
+    display: block;
+    width: 385px;
+    height: 142px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+.car{
+    position: absolute;
+    top: 12.52px;
+    left: 7.7px;
+    width: 32.59px;
+    height: 28.56px;
+    background-image: url(../css/img/car.svg);
+    z-index: 1;
+}
+.t4{
+    display: block;
+    margin-bottom: 16px;
+    width: 338px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+
+}
+.t44{
+    display: block;
+    margin-bottom: 48px;
+    width: 355px;
+    height: 148px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+.photo{
+    position: absolute;
+    top: 16px;
+    left: 11px;
+    width: 28px;
+    height: 25px;
+    background-image: url(../css/img/photo.svg);
+    z-index: 1;
+}
+.t6{
+    display: block;
+    margin-bottom: 20px;
+    width: 307px;
+    height: 70px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+}
+.t66{
+    display: block;
+    width: 355px;
+    height: 263px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #696969;
+}
+/*_____________________*/
+
+.container2{
+    margin: auto;
+    margin-bottom: 129px;
+    width: 1440px;
+    height: 908px;
+    background-image: url(../css/img/hills.jpg);
+    
+}
+.container3{
+    margin: auto;
+    width: 1230px;
+    height: 6206px;
+}
+.h1{
+    margin: auto;
+    margin-bottom: 20px;
+    width: 75px;
+    height: 20px;
+}
+.h2{
+    margin: auto;
+    margin-bottom: 24px;
+    width: 254px;
+    height: 50px;
+}
+.grt{
+    display:block;
+    margin: auto;
+    margin-bottom: 124px;
+    width: 908px;
+    height: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #696969;
+
+}
+.block{ /* первый блок*/
+    margin: auto;
+    margin-bottom: 65px;
+    width: 1141px;
+    height: 472px;
+}
+.circle{
+    float: left;
+    position: relative;
+    margin-right: 21px;
+    top: 90px;
+    width: 51px;
+    height: 43px;
+    background-image: url(../css/img/circle.svg);
+    background-repeat: no-repeat;
+}
+.number{/* цифры 1-9*/
+    position: absolute;
+    top: -6px;
+    left: 15px;
+    width: 15px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+}
+.preparation{/*подготовка*/
+    float: left;
+    margin-top: 97px;
+    width: 136px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+
+}
+.descr{/*текст*/
+    float: left;
+    margin-top: 21px;
+    width: 623px;
+    height: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+.image{/* изображение*/
+    float: right;
+    width: 495px;
+    height: 472px;
+    background-image: url(../css/img/img1.jpg);
+}
+/*__________*/
+
+.block_2{/* второй блок*/
+    margin: auto;
+    margin-bottom: 124px;
+    width: 1223px;
+    height: 472px;
+}
+.image_2{/*изображение*/
+    float: left;
+    margin-right: 105px;
+    width: 495px;
+    height: 472px;
+    background-image: url(../css/img/img2.jpg);
+    
+}
+.circle_2{
+    float: left;
+    position: relative;
+    top: 59px;
+    margin-right: 21px;
+    width: 51px;
+    height: 43px;
+    background-image: url(../css/img/circle.svg);
+    background-repeat: no-repeat;  
+}
+.tbl{ /*Встреча в Тбилиси*/
+    display: inline-block;
+    margin-top: 66px;
+    margin-bottom: 21px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+}
+.descr_2{ /* аэропорт Шота*/
+    display: inline-block;
+    margin-bottom: 35px;
+    width: 623px;
+    height: 120px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+.descr_22{
+    display: inline-block;
+    width: 623px;
+    height: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+/*_________*/
+
+.block_3{/* третий блок*/
+    margin: auto;
+    margin-bottom: 155px;
+    width: 1155px;
+    height: 472px;
+}
+.image_3{
+    float: right;
+    width: 495px;
+    height: 472px;
+    background-image: url(../css/img/automobile.jpg);
+}
+.circle_3{
+    position: relative;
+    float: left;
+    margin-right: 21px;
+    top: 47px;
+    width: 51px;
+    height: 43px;
+    background-image: url(../css/img/circle.svg);
+    background-repeat: no-repeat; 
+}
+.excursions{/*заголовок*/
+    float: left;
+    margin-bottom: 21px;
+    margin-top: 54px;
+    width: 254px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+}
+.descr_3{/*мелкий текст*/
+    display: inline-block;
+    margin-bottom: 35px;
+    margin-right: 37px;
+    width: 623px;
+    height: 120px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+.descr_33{/*крупный текст*/
+    width: 623px;
+    height: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969; 
+}
+/*_________*/
+
+.block_4{
+    margin: auto;
+    margin-bottom: 143px;
+    width: 1223px;
+    height: 472px;
+}
+.image_4{
+    float: left;
+    width: 495px;
+    height: 472px;
+    background-image: url(../css/img/mountains.jpg);
+    margin-right: 105px;
+}
+.circle_4{
+    position: relative;
+    float: left;
+    margin-right: 21px;
+    top: 24px;
+    width: 51px;
+    height: 43px;
+    background-image: url(../css/img/circle.svg);
+    background-repeat: no-repeat;  
+}
+.mountains{
+    float: left;
+    margin-bottom: 22px;
+    margin-top: 30px;
+    width: 254px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E; 
+}
+.descr_4{
+    display: inline-block;
+    margin-bottom: 34px;
+    width: 623px;
+    height: 145px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+.descr_44{
+    display: inline-block;
+    width: 623px;
+    height: 157px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+/*________*/
+.block_5{
+    margin: auto;
+    margin-bottom: 149px;
+    width: 1155px;
+    height: 472px;
+}
+.image_5{
+    float: right;
+    width: 495px;
+    height: 472px;
+    background-image: url(../css/img/jeep.jpg)
+}
+.circle_5{
+    position: relative;
+    float: left;
+    margin-right: 21px;
+    top: 61px;
+    width: 51px;
+    height: 43px;
+    background-image: url(../css/img/circle.svg);
+    background-repeat: no-repeat;  
+}
+.jeep{
+    float: left;
+    margin-top: 67px;
+    margin-bottom: 22px;
+    width: 290px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E; 
+}
+.descr_5{
+    display: inline-block;
+    margin-bottom: 29px;
+    height: 90px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+.descr_55{
+    display: inline-block;
+    margin-right: 37px;
+    width: 623px;
+    height: 151px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+/*________*/
+.block_6{
+    margin: auto;
+    margin-bottom: 111px;
+    width: 1223px;
+    height: 472px;
+}
+.image_6{
+    float: left;
+    margin-right: 105px;
+    width: 495px;
+    height: 472px;
+    background-image: url(../css/img/window.jpg);
+}
+.circle_6{
+    position: relative;
+    float: left;
+    margin-right: 21px;
+    top: 44px;
+    width: 51px;
+    height: 43px;
+    background-image: url(../css/img/circle.svg);
+    background-repeat: no-repeat;  
+}
+.kazbek{
+    float: left;
+    margin-top: 50px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+}
+.descr_6{
+    display: inline-block;
+    margin-bottom: 35px;
+    width: 570px;
+    height: 90px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+.descr_66{
+    display: inline-block;
+    width: 623px;
+    height: 153px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+/*________*/
+
+.block_7{
+    margin: auto;
+    margin-bottom: 122px;
+    width: 1155px;
+    height: 472px;
+}
+.image_7{
+    width: 495px;
+    height: 472px;
+    float: right;
+    background-image: url(../css/img/batumi.jpg);
+}
+.circle_7{
+    position: relative;
+    float: left;
+    top: 41px;
+    margin-right: 21px;
+    width: 51px;
+    height: 43px;
+    background-image: url(../css/img/circle.svg);
+    background-repeat: no-repeat; 
+}
+.batumi{
+    float: left;
+    margin-top: 47px;
+    margin-bottom: 22px;
+    width: 544px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+}
+.descr_7{
+    display: inline-block;
+    margin-bottom: 35px;
+    height: 86px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+.descr_77{
+    display: inline-block;
+    margin-right: 37px;
+    width: 623px;
+    height: 118px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+/*______*/
+.block_8{
+    margin: auto;
+    margin-bottom: 119px;
+    width: 1223px;
+    height: 472px;
+}
+.image_8{
+    float: left;
+    margin-right: 105px;
+    width: 495px;
+    height: 472px;
+    background-image: url(../css/img/batumi2.jpg);
+}
+.circle_8{
+    position: relative;
+    float: left;
+    top: 51px;
+    margin-right: 21px;
+    width: 51px;
+    height: 43px;
+    background-image: url(../css/img/circle.svg);
+    background-repeat: no-repeat; 
+}
+.batumi2{
+    float: left;
+    margin-top: 57px;
+    margin-bottom: 22px;
+    width: 235px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;   
+}
+.descr_8{
+    display: inline-block;
+    margin-bottom: 35px;
+    width: 321px;
+    height: 90px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+    
+}
+.descr_88{
+    display: inline-block;
+    width: 623px;
+    height: 183px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+/*__________*/
+
+.block_9{
+    margin: auto;
+    margin-bottom: 140px;
+    width: 1155px;
+    height: 472px;
+}
+.image_9{
+    float: right;
+    width: 495px;
+    height: 472px;
+    background-image: url(../css/img/image9.jpg);
+}
+.circle_9{
+    position: relative;
+    float: left;
+    top: 55px;
+    margin-right: 21px;
+    width: 51px;
+    height: 43px;
+    background-image: url(../css/img/circle.svg);
+    background-repeat: no-repeat;
+}
+.closing{
+    float: left;
+    margin-top: 61px;
+    margin-bottom: 22px;
+    width: 376px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+}
+.descr_9{
+    display: inline-block;
+    margin-bottom: 35px;
+    height: 90px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+.descr_99{
+    display: inline-block;
+    width: 623px;
+    height: 156px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;   
+}
+/*___*/
+
+.block_10{
+    margin: auto;
+    width: 1223px;
+    height: 472px;
+}
+.image_10{
+    float: left;
+    margin-right: 105px;
+    width: 495px;
+    height: 472px;
+    background-image: url(../css/img/img1.jpg);
+}
+.circle_10{
+    position: relative;
+    float: left;
+    top: 47px;
+    margin-right: 21px;
+    width: 51px;
+    height: 43px;
+    background-image: url(../css/img/circle.svg);
+    background-repeat: no-repeat; 
+}
+.number10{
+    position: absolute;
+    top: -6px;
+    left: 9px;
+    width: 30px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: #ffffff; 
+}
+.kutaisi{
+    float: left;
+    margin-top: 53px;
+    margin-bottom: 35px;
+    width: 294px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+}
+.descr_10{
+    display: inline-block;
+    margin-bottom: 35px;
+    height: 60px;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+.descr_00{
+    display: inline-block;
+    width: 623px;
+    height: 120px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    color: #696969;
+}
+/*___________Book tour____*/
+
+.container4{
+    margin: auto;
+    margin-top: -250px;
+    width: 1440px;
+    height: 1180px;
+    background-image: url(../css/img/image12.jpg);
+}
+.tf{
+    display: flex;
+    width: 1440px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.footertext1{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23.44px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footertext2{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.44px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+.footertext3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23.44px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+}
