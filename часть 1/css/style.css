@@ -1,0 +1,436 @@
+.container{
+    position: relative;
+    margin: auto;
+    width: 1440px;
+    height: 865px;
+    background-image: url(../css/img/gory.jpg);
+    background-size: contain;
+}
+.header{
+    position: relative;
+    margin: auto;
+    width: 1440px;
+    height: 80px;
+    color: white;
+}
+.rectangle{
+    /* gradient */
+    position: relative;
+    height: 865px;
+    width: 1440px;
+    border-radius: 0px;
+    background: linear-gradient(0deg, rgba(78, 78, 78, 0.7) 0%, rgba(78, 78, 78, 0.7) 0%, rgba(59, 59, 59, 0.7) 0.01%, rgba(14, 14, 14, 0.16013) 109.49%, rgba(0, 0, 0, 0) 141.96%);
+}
+.poloska{
+    position: relative;
+    top: 80px;
+    width: 1440px;
+    height: 1.36px;
+    background: #FFFFFF;
+    opacity: 0.25;
+    transform: matrix(1, 0, 0, -1, 0, 0);
+}
+.OK{
+    position: relative;
+    left: 108px;
+    top: 21px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.Travel{
+    position: relative;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #FFFFFF;
+}
+.content{
+    position: relative;
+    width: 468px;
+    height: 258.18px;
+    left: 165px;
+    top: 116.82px;
+}
+.text{
+    /* Грузия */
+    position: relative;
+    top: 0px;
+    float: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 117px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+}
+.text_2{
+    /* Тур все включено */
+    position: relative;
+    height: 27.24px;
+    width:   222px;
+    display: block;
+    padding-top: 192.3px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #FFFFFF;      
+}
+.text_3{
+    /* Перелет, ... */
+    display: block;
+    position: relative;
+    padding-top: 10px;
+    width: 468px;
+    height: 23px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.georgia{
+    position: relative;
+    background-image: url(../css/img/georgia.svg);
+    width: 118px;
+    height: 118px;
+    float: left;
+    top: 10px;
+}
+
+.clouds{
+    position: absolute;
+    background-image: url(../css/img/clouds.png);
+    width: 972px;
+    height: 415px;
+    right: 26px;
+    top: 0px; 
+}
+.Brief_Description{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 857px;
+    height: 289px;
+    top: 116px;
+}
+.Group_127_4{
+    position: relative;
+    display: block;
+    width: 857px;
+    height: 104px;
+}
+.Group_126{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 857px;
+    height: 104px;
+}
+.Group{
+    display: block;
+    width: 172px;
+    height: 8px;
+}
+.Group_1{
+    /*Волнистая линия, расположена рандомно*/
+    position: absolute;
+    display: block;
+    left: 315px;
+    bottom: 24px;
+    width: 172px;
+    height: 8px;
+    background-image: url(../css/img/Vector2.svg);
+    background-size: contain;
+    z-index: 2;
+}
+.text_4{
+    /*Бархатный сезон: идеальное время для путешествий! Скидка! Вместо*/
+    position: relative;
+    display: block;
+    height:  104px;
+    width:  857px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 52px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+    z-index: 1;
+}
+.sale{
+    /*70 000 руб*/
+    font-family: Roboto;
+    color: rgb(170, 170, 170);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 52px;
+    z-index: 1;
+}
+.rectangle_20_3{
+    /*рандомные значения для расположения*/
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 57px;
+    width: 130px;
+    height: 41px;
+    background-color: #ffc816;
+    border-radius: 1px;
+    z-index: 0;
+}
+.Rectangle_20_2{
+    /*рандомные значения для расположения*/
+    position: absolute;
+    bottom: 5px;
+    right: 57px;
+    width: 173px;
+    height: 41px;
+    background-color: #ffc816;
+    border-radius: 1px;
+}
+.text_5{
+    /*Компания OKTravel организует туры в Грузию. Что мы предлагаем?*
+    /*Шрифт или расстояние между строками какое-то не то*/
+    position: relative;
+    display: block;
+    top: 42px;
+    width: 758px;
+    height: 143px;
+    left: 47px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #2e2e2e;
+}
+.OKTravel{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center; 
+}
+.TravelTogether{
+    position: relative;
+    display: block;
+    top: 240px;
+    margin: auto;
+    width: 1120px;
+    height: 713px;
+    clear:both
+}
+.greytext{
+    position: relative;
+    left: 442px;
+    display: block;
+    width: 236px;
+    height: 19px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #C0C0C0;
+}
+.blacktext{
+    position: relative;
+    top: 26px;
+    left: 321px;
+    width: 478px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #2E2E2E;
+
+}
+.Group_124{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 340px;
+    height: 440px;
+    top: 217px;
+    
+}
+.Group_123{
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 340px;
+    height: 440px;
+}
+.MaskGroup{
+    position: relative;
+    margin: auto;
+    width: 340px;
+    height: 220px;
+}
+.rectangle_2_75{
+    position: relative;    
+    width: 340px;
+    height: 220px;
+    background: #FFFFFF;
+    background-image: url(../css/img/fire.jpg);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 11px 11px 0px 0px;
+    background-position-y: -41px;
+    background-repeat: no-repeat;
+    z-index: 1;
+    
+}
+.text_6_1{
+    /*Открыт*/
+    position: relative;
+    top: 22px;
+    left: 125px;
+    display: block;
+    width: 90px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #2E2E2E;
+}
+.text_6{
+    /* Любишь душевные разговоры у костра */
+position: relative;
+display: block;
+width: 169px;
+height: 72px;
+left: 85px;
+top: 28px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 36px;
+text-align: center;
+color: #2E2E2E;
+}
+.rectangle_2_74{
+    position: relative;
+    width: 340px;
+    height: 440px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 11px;
+    z-index: 0;
+}
+.activen{
+    position: relative;
+    display: block;
+    float: right;
+    top: -350px;
+    width: 340px;
+    height: 440px;
+}
+.rectangle_2_77{
+    display: block;
+    width: 340px;
+    height: 220px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 11px 11px 0px 0px;
+    background-image: url(../css/img/activen.jpg);
+    background-position-y: -41px;
+    background-position-x: -41px;
+}
+.text_7{
+    /* Хочешь посмотреть Грузию с разных сторон и не боишься устать в поездке */
+    position: relative;
+    display: block;
+    left: 36px;
+    top: 28px;
+    width: 267px;
+    height: 108px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #2E2E2E;
+}
+.wanderings{
+    position: relative;
+    display: block;
+    float: left;
+    top: -350px;
+    width: 340px;
+    height: 440px;
+}
+.rectangle_2_79{
+    display: block;
+    width: 340px;
+    height: 220px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
+    border-radius: 11px 11px 0px 0px;
+    background-image: url(../css/img/wa.jpg);
+    background-position-y: -41px;
+    background-position-x: -23px;
+}
+.text_8{
+    position: relative;
+    display: block;
+    left: 36px;
+    top: 28px;
+    width: 267px;
+    height: 108px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #2E2E2E;
+}
+.text_8_1{
+    position: relative;
+    top: 22px;
+    left: 86px;
+    display: block;
+    width: 90px;
+    height: 50px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    color: #2E2E2E;
+}
